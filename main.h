@@ -8,6 +8,7 @@ typedef struct {
     int row_size;
     FILE* fp;
     int canonical;
+    int colour;
 } UserArgument;
 
 int show_hex(UserArgument* usrarg);
