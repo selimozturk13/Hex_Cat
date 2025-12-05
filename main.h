@@ -1,7 +1,7 @@
 #pragma once
 #include <stdio.h>
 
-#define PROGRAMNAME "shex"
+#define PROGRAMNAME "Hex Cat"
 #define PROGRAMVERSION "1.0.0"
 
 typedef struct {
@@ -9,7 +9,14 @@ typedef struct {
     FILE* fp;
     int canonical;
     int colour;
+    int skip;
+    int verbose;
+    int length;
+    int offsetf;
+    int group;
+    FILE* ofp;
 } UserArgument;
 
 int show_hex(UserArgument* usrarg);
+int write_to_file(UserArgument* usrarg);
 void help();
