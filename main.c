@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
- 
+
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -127,12 +127,10 @@ int main(int argc, char *argv[])
         write_to_file(&usrarg);
     }
     exit:
-        if (fp) fclose(fp);
         if (usrarg.fp) fclose(usrarg.fp);
         if (usrarg.ofp) fclose(usrarg.ofp);
         return 0;
     error:
-        if (fp) fclose(fp);
         if (usrarg.fp) fclose(usrarg.fp);
         if (usrarg.ofp) fclose(usrarg.ofp);
         return 1;
