@@ -1,6 +1,6 @@
 # HexCat(hc) - Hex Viewer & Dumper
 
-`hc` is a lightweight and fast command-line tool to display binary files in hexadecimal format
+`HexCat(hc)` is a lightweight and fast command-line tool to display binary files in hexadecimal format
 
 ---
 
