@@ -25,7 +25,7 @@ cd HexCat
 make && make install
 ```
 ---
-## Usuage
+## Usage
 `hc [options] <file>`
 
 | Short | Long             | Description                               |
