@@ -76,3 +76,11 @@ make && make install
 - It works on **Unix, Linux, macOS etc.**
 - Hex colors: blue = 0x00, red = 0xFF, yellow = printable ASCII, gray = non-printable ASCII.
 - Binary files are read in binary mode, so it supports any file type.
+
+---
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 or later.  
+See the [LICENSE](LICENSE) file for the full text.
+
