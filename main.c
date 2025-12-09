@@ -97,6 +97,7 @@ int main(int argc, char *argv[])
             printf("Opening file in binary reading option.\n");
         }
         fp=fopen(argv[i],"rb");
+        fseek(fp, 0, SEEK_SET);
         usrarg.fp=fp;
     }
 

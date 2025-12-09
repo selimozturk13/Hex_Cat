@@ -12,7 +12,7 @@ $(PROGRAM): $(SRCS) $(HDRS)
 	@echo "Succesfuly compiled."
 
 install: $(PROGRAM)
-	@echo "Kurulum başlatılıyor..."
+	@echo "installation's starting..."
 	mkdir -p $(INSTALL_BIN_DIR)
 	cp $(PROGRAM) $(INSTALL_BIN_DIR)
 	@echo "'$(PROGRAM)' installed to $(INSTALL_BIN_DIR)"
