@@ -63,6 +63,8 @@ int show_hex(UserArgument* usrarg)
                         printf("\033[34m%02X\033[0m", buf[i]);
                     else if (buf[i] == 0xFF)
                         printf("\033[31m%02X\033[0m", buf[i]);
+                    else if (buf[i] >= 0x20 && buf[i] <= 0xfe)
+                        printf("\033[93m%02X\033[0m", buf[i]);
                     else
                         printf("\033[37m%02X\033[0m", buf[i]);
                 } else {
