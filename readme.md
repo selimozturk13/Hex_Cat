@@ -20,8 +20,8 @@
 Compile the program using `make`:
 
 ```bash
-git clone https://github.com/selimozturk13/HexCat.git
-cd HexCat
+git clone https://github.com/selimozturk13/hexcat.git 
+cd hexcat
 make && make install
 ```
 ---
